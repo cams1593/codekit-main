@@ -1,0 +1,40 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    line-height: 140%;
+    font-size: 18px;
+}
+
+
+.Tab__ul{
+    display: flex;
+}
+.Tab__li{
+    padding: 0px;
+    background-color: rgb(203, 220, 51);
+    margin: 10px;
+    list-style: none;
+
+}
+.Tab__li--actif{
+    background-color: brown;
+    margin: none;
+}
+
+.tab__wrapper{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.Tab__contenu{
+    display: none;
+    background-color: beige;
+    padding: 50px;
+    width: 100%;
+    flex-shrink: 0;
+}
+.Tab__contenu--actif{
+    display: block;
+}

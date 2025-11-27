@@ -1,0 +1,24 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    line-height: 140%;
+    font-size: 18px;
+
+    /*a supprimer*/
+    height: 3000px;
+}
+
+.scrollBar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15px;/*car on n'a pas de contenue html*/
+    background-color: hotpink;
+}
+
+.scrollBar__progress{
+    height: 100%;
+    background-color: limegreen;
+    width: var(--scrollbar-width,0%);
+}
